@@ -9,16 +9,14 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Container>
+      <Container fluid>
+      <Header></Header>
         <Row>
-        <Header></Header>
-          <Col>1 of 2</Col>
-          <Col>2 of 2</Col>
+          <Col auto>1 of 2</Col>
+          <Col auto>2 of 2</Col>
         </Row>
         <Footer></Footer>
       </Container>
-      
-
     </div>
   );
 }
