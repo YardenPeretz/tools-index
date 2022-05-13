@@ -1,7 +1,7 @@
 import './ToolCard.css';
-import { Container, Row, Col } from 'react-bootstrap/';
+import { Container, Row, Col , Card, Button} from 'react-bootstrap/';
 
-function Home() {
+function ToolCard() {
     return (
         <div className="ToolCard">
             <Card style={{ width: '18rem' }}>
@@ -19,4 +19,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default ToolCard;
