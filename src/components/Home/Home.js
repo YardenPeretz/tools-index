@@ -9,8 +9,14 @@ function Home() {
     <div className="Home">
       <Container fluid>
         <Header></Header>
-        <Row>
-        <Col className='col'>col number 1</Col>
+        <Row  lg={2}>
+          <Col className='col1'>row 1 col number 1</Col>
+          <Col>row 1 col number 2</Col>
+          <Col>row 1 col number 3</Col>
+          <Col>row 1 col number 4</Col>
+        </Row>
+        <Row  xs={2} md={8} lg={9}>
+          <Col className='col2'>col number 1</Col>
           <Col>col number 2</Col>
           <Col>col number 3</Col>
         </Row>
