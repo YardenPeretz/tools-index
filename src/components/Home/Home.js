@@ -19,6 +19,7 @@ function Home() {
           <Col className='col2'>col number 1</Col>
           <Col>col number 2</Col>
           <Col>col number 3</Col>
+          <Col>col number 4</Col>
         </Row>
         <Footer></Footer>
       </Container>
