@@ -1,22 +1,17 @@
 
 import './App.css';
-
-import {Container,Row,Col} from 'react-bootstrap/';
+import { Routes, Route, Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home'
 
 function App() {
   return (
     <div className="App">
-      <Container>
-        <Row>
-        <Header></Header>
-          <Col>1 of 2</Col>
-          <Col>2 of 2</Col>
-        </Row>
-        <Footer></Footer>
-      </Container>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        
+      </Routes>
+      
       
 
     </div>
