@@ -1,7 +1,9 @@
+import './Header.css'
+
 function Header() {
   return (
     <div className="Header">
-      Header!
+        <div className="navbar navbar-light bg-light">test header</div>
     </div>
   );
 }
