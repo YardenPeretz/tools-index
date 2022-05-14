@@ -6,12 +6,10 @@ function Footer() {
       <div className="Footer">
       <Navbar  bg="light" expand="lg" className='footer_menu'>
         <Container fluid className='mx-5 h-100'>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+
             <Nav className="me-auto">     
         FOOTER
             </Nav>
-          </Navbar.Collapse>
         </Container>
       </Navbar>
       </div>

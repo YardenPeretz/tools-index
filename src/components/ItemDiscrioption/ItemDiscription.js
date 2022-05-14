@@ -5,8 +5,8 @@ import { Container, Card, Row, Col } from 'react-bootstrap/';
 function Item() {
     return (
 
-        <div className="Item">
-            <Container className='mainContainer' fluid>
+        <div className="Item w-100">
+            <Container className='mainContainer p-0 pt-4' fluid>
                 <>
 
                     <Row>

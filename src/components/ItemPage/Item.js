@@ -1,4 +1,4 @@
-import './Item.css'
+import './Item.scss'
 import { Container, Row, Col } from 'react-bootstrap/';
 import ToolCard from '../ToolCard/ToolCard';
 import ItemDiscription from '../ItemDiscrioption/ItemDiscription'
@@ -7,16 +7,10 @@ function Item() {
 
     <div className="Item">
       <Container className='mainContainer' fluid>
-        <Row>
-            <Col className='itemCol' md={1}>
-                
-            </Col>
-            <Col className='itemCol' md={10}>
+        <Row className='justify-content-center'>
+            <Col className='itemCol d-flex flex-wrap justify-content-center' md={8} xs={12}>
                 <ToolCard></ToolCard>
                 <ItemDiscription></ItemDiscription>
-            </Col>
-            <Col className='itemCol' md={1}>
-                
             </Col>
         </Row>
       </Container>
