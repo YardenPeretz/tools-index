@@ -9,11 +9,17 @@ function Header() {
       
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">Useful Tools</Navbar.Brand>
+          <Navbar.Brand href="/">Useful Tools</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">     
                   <Link to="/ToolCard">toolcard</Link>     
+            </Nav>
+            <Nav className="me-auto">     
+                  <Link to="/Item">Item</Link>     
+            </Nav>
+            <Nav className="me-auto">     
+                  <Link to="/ItemDiscription">ItemDiscription</Link>     
             </Nav>
           </Navbar.Collapse>
         </Container>

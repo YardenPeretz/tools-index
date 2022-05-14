@@ -6,6 +6,8 @@ import Home from './components/Home/Home'
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import ToolCard from './components/ToolCard/ToolCard';
+import Item from './components/ItemPage/Item'
+import ItemDiscription from './components/ItemDiscrioption/ItemDiscription'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Routes>    
         <Route path="/" element={<Home />} />
         <Route path="/ToolCard" element={<ToolCard />} />   
+        <Route path="/Item" element={<Item />} />  
+        <Route path="/ItemDiscription" element={<ItemDiscription />} />  
       </Routes>
       <Footer></Footer>
     </div>
