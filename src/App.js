@@ -15,7 +15,6 @@ function App() {
       <Header></Header>
       <Routes>    
         <Route path="/" element={<Home />} />
-        <Route path="/ToolCard" element={<ToolCard />} />   
         <Route path="/Item" element={<Item />} />  
         <Route path="/ItemDiscription" element={<ItemDiscription />} />  
       </Routes>

@@ -6,7 +6,7 @@ import { useState } from 'react';
 function ToolCard(props) {
     console.log(props.link)
     return (
-        <div className="ToolCard">
+        <div className="ToolCard p-4">
             <Card className='card'>
                 <Card.Img variant="top" className="card-image" src={props.image} />
                 <Card.Body>

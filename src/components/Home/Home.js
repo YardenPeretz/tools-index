@@ -28,6 +28,18 @@ function Home() {
           <Col lg={3} xs={12}>
             <ToolCard title="third title" link="Item"></ToolCard>
           </Col>
+          <Col lg={3} xs={12}>
+            <ToolCard title="test" link="ToolCard" image={formatter}></ToolCard>
+          </Col>
+          <Col lg={3} xs={12}>
+            <ToolCard title="test2" link="ToolCard"></ToolCard>
+          </Col>
+          <Col lg={3} xs={12}>
+            <ToolCard title="second title" link="ToolCard"></ToolCard>
+            </Col>
+          <Col lg={3} xs={12}>
+            <ToolCard title="third title" link="ToolCard"></ToolCard>
+          </Col>
         </Row>
       </Container>
     </div>
