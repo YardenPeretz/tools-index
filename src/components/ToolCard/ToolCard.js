@@ -1,13 +1,15 @@
 import './ToolCard.css';
 import { Container, Row, Col , Card, Button} from 'react-bootstrap/';
 import  { Routes, Route, Link } from "react-router-dom";
-function ToolCard() {
+import { useState } from 'react';
+
+function ToolCard(props) {
     return (
         <div className="ToolCard">
             <Card className='card'>
-                <Card.Img variant="top" className="card-image" src="holder.js/100px180" />
+                <Card.Img variant="top" className="card-image" src={props.image} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>{props.title}</Card.Title>
                     <Card.Text>
                         Some quick example text to build on the card title and make up the bulk of
                         the card's content.
@@ -18,7 +20,7 @@ function ToolCard() {
                         Some quick example text to build on the card title and make up the bulk of
                         the card's content.
                     </Card.Text>
-                    <Link to="/" className='btn btn-primary'>Go somewhere</Link>
+                    <Link to="/" className='btn btn-primary'>Go to {props.title}</Link>
                 </Card.Body>
             </Card>
         </div>
