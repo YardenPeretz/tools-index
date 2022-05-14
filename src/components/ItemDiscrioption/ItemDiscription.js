@@ -8,7 +8,6 @@ function Item() {
         <div className="Item">
             <Container className='mainContainer' fluid>
                 <>
-
                     <Card
                         bg='info'
                         key='Info'
@@ -25,7 +24,6 @@ function Item() {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-
                 </>
             </Container>
 
