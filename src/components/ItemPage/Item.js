@@ -2,6 +2,7 @@ import './Item.scss'
 import { Container, Row, Col } from 'react-bootstrap/';
 import ToolCard from '../ToolCard/ToolCard';
 import ItemDiscription from '../ItemDiscrioption/ItemDiscription'
+
 function Item() {
   return (
 
@@ -9,7 +10,7 @@ function Item() {
       <Container className='mainContainer' fluid>
         <Row className='justify-content-center'>
             <Col className='itemCol d-flex flex-wrap justify-content-center' md={8} xs={12}>
-                <ToolCard></ToolCard>
+                <ToolCard title="next" link="ToolCard"></ToolCard>
                 <ItemDiscription></ItemDiscription>
             </Col>
         </Row>

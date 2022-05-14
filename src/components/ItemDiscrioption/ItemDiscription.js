@@ -8,7 +8,6 @@ function Item() {
         <div className="Item w-100">
             <Container className='mainContainer p-0 pt-4' fluid>
                 <>
-
                     <Row>
                         <Col className='itemCol' md={2}>
                             <Card border="secondary"
@@ -26,9 +25,7 @@ function Item() {
                         </Col>
                         <Col className='itemCol' md={10}>
                             <Card
-
                                 border="secondary"
-
                                 key='Info'
                                 style={{ color: "grey" }}
                                 className='discription'
@@ -42,14 +39,10 @@ function Item() {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-
                         </Col>
-
                     </Row>
-
                 </>
             </Container>
-
         </div>
     );
 }
