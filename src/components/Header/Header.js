@@ -6,8 +6,7 @@ import logo from "../../assets/images/logo.png"
 function Header() {
   return (
 
-    <div className="Header">
-      
+    <div className="Header">     
       <Navbar  expand="lg" className='nav_menu'>
         <Container fluid className='mx-5 h-100'>
           <Navbar.Brand><img src={logo} className="logo"/></Navbar.Brand>
