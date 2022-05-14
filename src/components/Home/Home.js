@@ -15,16 +15,16 @@ function Home() {
       <Container fluid>
         <Row>
           <Col lg={3} xs={12}>
-            <ToolCard title="test" link="/ToolCard" image={formatter}></ToolCard>
+            <ToolCard title="test" link="ToolCard" image={formatter}></ToolCard>
           </Col>
           <Col lg={3} xs={12}>
-            <ToolCard title="test2"></ToolCard>
+            <ToolCard title="test2" link="ToolCard"></ToolCard>
           </Col>
           <Col lg={3} xs={12}>
-            <ToolCard title="second title"></ToolCard>
+            <ToolCard title="second title" link="ToolCard"></ToolCard>
             </Col>
           <Col lg={3} xs={12}>
-            <ToolCard title="third title"></ToolCard>
+            <ToolCard title="third title" link="ToolCard"></ToolCard>
           </Col>
         </Row>
       </Container>

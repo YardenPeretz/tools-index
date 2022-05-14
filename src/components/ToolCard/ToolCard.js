@@ -4,6 +4,7 @@ import  { Routes, Route, Link } from "react-router-dom";
 import { useState } from 'react';
 
 function ToolCard(props) {
+    console.log(props.link)
     return (
         <div className="ToolCard">
             <Card className='card'>
@@ -20,7 +21,7 @@ function ToolCard(props) {
                         Some quick example text to build on the card title and make up the bulk of
                         the card's content.
                     </Card.Text>
-                    <Link to="/" className='btn btn-primary'>Go to {props.title}</Link>
+                    <Link to={"/" + props.link} className='btn btn-primary'>Go to {props.title}</Link>
                 </Card.Body>
             </Card>
         </div>
