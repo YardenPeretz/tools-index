@@ -1,8 +1,11 @@
 import './ItemDiscription.css'
 import { Container, Card, Row, Col } from 'react-bootstrap/';
+import {useLocation} from "react-router-dom";
 
-
-function Item() {
+function Item(props) {
+    let data = useLocation();
+    console.log(data);
+    console.log(props)
     return (
 
         <div className="Item w-100">

@@ -7,6 +7,7 @@ import ToolCard from '../ToolCard/ToolCard'
 import { useState } from 'react';
 // images improts 
 import formatter from'../../assets/images/encryption_formatter.png';
+import ILovePDF from'../../assets/images/ILovePDF.JPG';
 import Item from '../ItemPage/Item'
 
 
@@ -17,7 +18,7 @@ function Home() {
       <Container fluid>
         <Row>
           <Col lg={3} xs={12}>
-            <ToolCard title="test" link="Item" image={formatter}></ToolCard>
+            <ToolCard title="test" link="Item" image={ILovePDF}></ToolCard>
           </Col>
           <Col lg={3} xs={12}>
             <ToolCard title="test2" link="Item"></ToolCard>
